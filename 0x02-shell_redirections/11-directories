@@ -1,2 +1,2 @@
 #!/bin/bash
-find /mount/point -mindepth 1 -type d -printf 'a' | wc -c
+find ./* -type d | wc -l
